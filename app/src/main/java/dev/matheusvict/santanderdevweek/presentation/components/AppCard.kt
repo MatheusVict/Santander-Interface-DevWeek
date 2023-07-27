@@ -1,6 +1,6 @@
 package dev.matheusvict.santanderdevweek.presentation.components
 
-import SantanderDevWeekTheme
+import dev.matheusvict.santanderdevweek.ui.theme.SantanderDevWeekTheme
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults

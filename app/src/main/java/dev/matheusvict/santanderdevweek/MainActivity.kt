@@ -1,6 +1,6 @@
 package dev.matheusvict.santanderdevweek
 
-import SantanderDevWeekTheme
+import dev.matheusvict.santanderdevweek.ui.theme.SantanderDevWeekTheme
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
