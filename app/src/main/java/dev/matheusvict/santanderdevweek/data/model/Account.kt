@@ -6,6 +6,6 @@ data class Account(
     val id: Long = 0,
     val number: String = "",
     val agency: String = "",
-    val balance: BigDecimal = BigDecimal.ZERO,
-    val limit: BigDecimal = BigDecimal.ZERO,
+    val balance: Double = 0.0,
+    val limit: Double = 0.0,
 )

@@ -32,6 +32,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import dev.matheusvict.santanderdevweek.data.mocks.Mocks
 import dev.matheusvict.santanderdevweek.data.model.News
+import dev.matheusvict.santanderdevweek.ui.theme.SantanderDevWeekTheme
 import dev.matheusvict.santanderdevweek.ui.theme.Spacing_1
 import dev.matheusvict.santanderdevweek.ui.theme.Spacing_2
 
@@ -117,5 +118,7 @@ fun NewsItems(news: News) {
 @Preview
 @Composable
 fun NewPagesPreview() {
-    NewPages(news = Mocks.newsList)
+    SantanderDevWeekTheme {
+        NewPages(news = Mocks.newsList)
+    }
 }

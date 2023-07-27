@@ -15,6 +15,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import dev.matheusvict.santanderdevweek.data.mocks.Mocks
 import dev.matheusvict.santanderdevweek.data.model.Feature
+import dev.matheusvict.santanderdevweek.ui.theme.SantanderDevWeekTheme
 import dev.matheusvict.santanderdevweek.ui.theme.Spacing_2
 
 @Composable
@@ -55,5 +56,7 @@ fun MenuItems(
 @Preview
 @Composable
 fun MenuItemsPreview() {
-    MenuItems(features = Mocks.featureList)
+   SantanderDevWeekTheme {
+       MenuItems(features = Mocks.featureList)
+   }
 }

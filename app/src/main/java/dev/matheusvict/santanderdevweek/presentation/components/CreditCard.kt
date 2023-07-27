@@ -20,6 +20,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import dev.matheusvict.santanderdevweek.ui.theme.SantanderDevWeekTheme
 import dev.matheusvict.santanderdevweek.ui.theme.Spacing_2
 
 @Composable
@@ -61,5 +62,7 @@ fun CreditCard(
 @Preview
 @Composable
 fun CreditCardPreview() {
-    CreditCard(cardNumber = "00000")
+    SantanderDevWeekTheme {
+        CreditCard(cardNumber = "00000")
+    }
 }
